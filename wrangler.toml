@@ -1,4 +1,4 @@
-name = "ultra-bio-bot"
+name = "zeron-bio-bot"
 main = "src/index.js"
 compatibility_date = "2025-01-01"
 
