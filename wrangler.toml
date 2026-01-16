@@ -6,14 +6,7 @@ kv_namespaces = [
   { binding = "KV", id = "e96ebbd52d724082b183d7b6fe738eb9" }
 ]
 
-[[queues.producers]]
-binding = "BIO_QUEUE"
-queue = "bio-queue"
 
-[[queues.consumers]]
-queue = "bio-queue"
-max_batch_size = 50
-max_batch_timeout = 1
 
 [vars]
 API_BASE = "https://zeron-long-bio-api.vercel.app"
