@@ -3,7 +3,7 @@ main = "src/index.js"
 compatibility_date = "2025-01-01"
 
 kv_namespaces = [
-  { binding = "KV", id = "PUT_KV_ID_HERE" }
+  { binding = "KV", id = "e96ebbd52d724082b183d7b6fe738eb9" }
 ]
 
 [[queues.producers]]
