@@ -1,0 +1,21 @@
+name = "ultra-bio-bot"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+kv_namespaces = [
+  { binding = "KV", id = "PUT_KV_ID_HERE" }
+]
+
+[[queues.producers]]
+binding = "BIO_QUEUE"
+queue = "bio-queue"
+
+[[queues.consumers]]
+queue = "bio-queue"
+max_batch_size = 50
+max_batch_timeout = 1
+
+[vars]
+API_BASE = "https://zeron-long-bio-api.vercel.app"
+REQUIRED_CHANNEL = "@CodeDevZeron"
+LOG_CHANNEL = "@updattex"
